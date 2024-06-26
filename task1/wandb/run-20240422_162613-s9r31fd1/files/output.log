@@ -1,0 +1,91 @@
+Average sequence length: 91.34038650085759
+Min, Median, Max sequence length: [1, 72, 1151]
+Number of indices to drop for input length: 132635
+Average sequence length: 99.35036414859839
+Min, Median, Max sequence length: [4, 84, 1151]
+Number of indices to drop for output length: 118172
+Initial Dataset is of shape: (2095985, 4)
+Final   Dataset is of shape: (1940163, 4)
+Shapes for, Train Dataset: (1552130, 4), Test Dataset: (388033, 4)
+['input_ids', 'attention_mask', 'labels']
+['input_ids', 'attention_mask', 'labels']
+/usr/local/lib/python3.10/dist-packages/transformers/models/t5/tokenization_t5_fast.py:171: FutureWarning: This tokenizer was incorrectly instantiated with a model max length of 512 which will be corrected in Transformers v5.
+For now, this behavior is kept to avoid breaking backwards compatibility when padding/encoding with `truncation is True`.
+- Be aware that you SHOULD NOT rely on google-t5/t5-base automatically truncating your input to 512 when padding/encoding.
+- If you want to encode/pad to sequences longer than 512 you can either instantiate this tokenizer with `model_max_length` or pass `max_length` when encoding/padding.
+- To avoid this warning, please instantiate this tokenizer with `model_max_length` set to your preferred value.
+  warnings.warn(
+trainable params: 4065280 || all params: 156189952 || trainable%: 2.6027794668891375
+Initiating Fine-Tuning for the model on our dataset
+Epoch: 0
+/usr/local/lib/python3.10/dist-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+Loss:  11.622883796691895
+Loss:  1.1370434761047363
+Loss:  0.8418352007865906
+Loss:  0.7379652857780457
+Epoch: 1
+Loss:  0.7269523739814758
+Loss:  0.6445028185844421
+Loss:  0.5458033084869385
+Loss:  0.5515226721763611
+Epoch: 2
+Loss:  0.6159576177597046
+Loss:  0.5598059892654419
+Loss:  0.4919397234916687
+Loss:  0.5075825452804565
+Epoch: 3
+Loss:  0.5759002566337585
+Loss:  0.5432177186012268
+Loss:  0.4766868054866791
+Loss:  0.49906614422798157
+Epoch: 4
+Loss:  0.5420156121253967
+Loss:  0.5156962871551514
+Loss:  0.45334291458129883
+Loss:  0.4742874205112457
+Epoch: 5
+Loss:  0.5409945845603943
+Loss:  0.4953669309616089
+Loss:  0.44095391035079956
+Loss:  0.4591774046421051
+Epoch: 6
+Loss:  0.5175329446792603
+Loss:  0.48146650195121765
+Loss:  0.44080856442451477
+Loss:  0.44098785519599915
+Epoch: 7
+Loss:  0.5158901214599609
+Loss:  0.4812392294406891
+Loss:  0.4311119616031647
+Loss:  0.44091251492500305
+Epoch: 8
+Loss:  0.49337056279182434
+Loss:  0.47760432958602905
+Loss:  0.4149474501609802
+Loss:  0.43457654118537903
+Epoch: 9
+Loss:  0.4988536238670349
+Loss:  0.4646158218383789
+Loss:  0.41361185908317566
+Loss:  0.4308139979839325
+Now generating summaries on our fine tuned model for the validation dataset and saving it in a dataframe
+Completed 0
+Output Files generated for review
+Completed 0
+Output Files generated for review
+Completed 0
+Output Files generated for review
+Completed 0
+Output Files generated for review
+Completed 0
+Output Files generated for review
+Completed 0
+Output Files generated for review
+Completed 0
+Output Files generated for review
+Completed 0
+Output Files generated for review
+Completed 0
+Output Files generated for review
+Completed 0

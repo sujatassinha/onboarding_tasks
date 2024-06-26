@@ -1,0 +1,15 @@
+/usr/local/lib/python3.10/dist-packages/huggingface_hub/utils/_token.py:88: UserWarning:
+The secret `HF_TOKEN` does not exist in your Colab secrets.
+To authenticate with the Hugging Face Hub, create a token in your settings tab (https://huggingface.co/settings/tokens), set it as secret in your Google Colab and restart your session.
+You will be able to reuse this secret in all of your notebooks.
+Please note that authentication is recommended but still optional to access public models or datasets.
+  warnings.warn(
+[34m[1mwandb[39m[22m: Adding directory to artifact (./outputs/SFTTrainer-llama-finetune-dolly-15k/checkpoint-500)... Done. 0.2s
+[34m[1mwandb[39m[22m: Adding directory to artifact (./outputs/SFTTrainer-llama-finetune-dolly-15k/checkpoint-1000)... Done. 0.1s
+[34m[1mwandb[39m[22m: Adding directory to artifact (./outputs/SFTTrainer-llama-finetune-dolly-15k/checkpoint-1500)... Done. 0.1s
+[34m[1mwandb[39m[22m: Adding directory to artifact (./outputs/SFTTrainer-llama-finetune-dolly-15k/checkpoint-2000)... Done. 0.1s
+[34m[1mwandb[39m[22m: Adding directory to artifact (./outputs/SFTTrainer-llama-finetune-dolly-15k/checkpoint-2500)... Done. 0.1s
+[34m[1mwandb[39m[22m: Adding directory to artifact (./outputs/SFTTrainer-llama-finetune-dolly-15k/checkpoint-3000)... Done. 0.2s
+[34m[1mwandb[39m[22m: Adding directory to artifact (./outputs/SFTTrainer-llama-finetune-dolly-15k/checkpoint-3500)... Done. 0.1s
+[34m[1mwandb[39m[22m: Adding directory to artifact (./outputs/SFTTrainer-llama-finetune-dolly-15k/checkpoint-4000)... Done. 0.1s
+[34m[1mwandb[39m[22m: Adding directory to artifact (./outputs/SFTTrainer-llama-finetune-dolly-15k/checkpoint-4500)... Done. 0.2s

@@ -1,0 +1,25 @@
+Average sequence length: 91.34038650085759
+Min, Median, Max sequence length: [1, 72, 1151]
+Number of indices to drop for input length: 132635
+Average sequence length: 99.35036414859839
+Min, Median, Max sequence length: [4, 84, 1151]
+Number of indices to drop for output length: 118172
+Initial Dataset is of shape: (2095985, 4)
+Final   Dataset is of shape: (1940163, 4)
+Shapes for, Train Dataset: (1552130, 4), Test Dataset: (388033, 4)
+['input_ids', 'attention_mask', 'labels']
+['input_ids', 'attention_mask', 'labels']
+trainable params: 4065280 || all params: 156189952 || trainable%: 2.6027794668891375
+Initiating Fine-Tuning for the model on our dataset
+Epoch: 0
+/usr/local/lib/python3.10/dist-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+Loss:  11.622883796691895
+Loss:  1.1370434761047363
+Loss:  0.8418352007865906
+Loss:  0.7379652857780457
+Time : 501.8618438243866 secs
+Now generating summaries on our fine tuned model for the validation dataset and saving it in a dataframe
+Completed 0
+Output Files generated for review
+Completed 0

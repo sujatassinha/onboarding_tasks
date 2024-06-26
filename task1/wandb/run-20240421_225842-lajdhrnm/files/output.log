@@ -1,0 +1,10 @@
+Average sequence length: 91.34038650085759
+Min, Median, Max sequence length: [1, 72, 1151]
+Number of indices to drop for input length: 132635
+Average sequence length: 99.35036414859839
+Min, Median, Max sequence length: [4, 84, 1151]
+Number of indices to drop for output length: 118172
+Parameter 'indices'=<generator object <genexpr> at 0x7a1eb2398e40> of the transform datasets.arrow_dataset.Dataset.select couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+WARNING:datasets.fingerprint:Parameter 'indices'=<generator object <genexpr> at 0x7a1eb2398e40> of the transform datasets.arrow_dataset.Dataset.select couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+Initial Dataset is of shape: (2095985, 4)
+Final   Dataset is of shape: (1940163, 4)
